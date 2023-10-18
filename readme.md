@@ -27,7 +27,6 @@ To use the code in this repository, follow these steps:
    ```shell
    git clone https://github.com/your-username/course-1140-practice-problems-java.git
 
-
 ## License
 
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
