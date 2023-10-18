@@ -1,3 +1,4 @@
+package programmingbydoing.random.guessing;
 /*
  * https://programmingbydoing.com/a/a-number-guessing-game.html
  */
