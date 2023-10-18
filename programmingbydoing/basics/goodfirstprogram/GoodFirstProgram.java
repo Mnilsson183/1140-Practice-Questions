@@ -1,3 +1,7 @@
+/*
+ * https://programmingbydoing.com/a/a-good-first-program.html
+ */
+
 package programmingbydoing.basics.goodfirstprogram;
 public class GoodFirstProgram
 {
