@@ -19,10 +19,10 @@ public class yourSchedule {
 
         System.out.printf("+---------------------------------------+\n");
         System.out.printf("| 1 |        %s |   %s |\n", sub1, t1);
-        System.out.printf("| 2 |        %s |   %s |\n", sub1, t1);
-        System.out.printf("| 3 |        %s |   %s |\n", sub1, t1);
-        System.out.printf("| 4 |        %s |   %s |\n", sub1, t1);
-        System.out.printf("| 5 |        %s |   %s |\n", sub1, t1);
+        System.out.printf("| 2 |        %s |   %s |\n", sub2, t2);
+        System.out.printf("| 3 |        %s |   %s |\n", sub3, t3);
+        System.out.printf("| 4 |        %s |   %s |\n", sub4, t4);
+        System.out.printf("| 5 |        %s |   %s |\n", sub5, t5);
         System.out.printf("+---------------------------------------+\n");
     }
 }
