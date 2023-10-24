@@ -72,7 +72,7 @@ public class gravel {
         double subtotal = price * weight;
         System.out.printf("Subtotal:     $%7.2f\n", subtotal);
 
-        double deliveryCost = Math.round(0.0300 * subtotal * delivery * 100d) / 100d;
+        double deliveryCost = Math.round(0.0300 * subtotal * delivery * 1000) / 1000d;
         if (deliveryFee == 0){
             deliveryCost = 0;
         }
@@ -83,10 +83,10 @@ public class gravel {
         }
         System.out.printf("\n");
 
-        double gst = 0.0500 * (subtotal + deliveryCost);
+        double gst = Math.round(0.0500 * (subtotal + deliveryCost) * 1000) / 1000d;
         System.out.printf("GST:          $%7.2f\n", gst);
         System.out.printf("--------------------------\n\n");
-        double total = Math.round((subtotal + deliveryCost + gst) * 100) / 100d;
+        double total = Math.round((subtotal + deliveryCost + gst) * 1000) / 1000d;
         System.out.printf("Total: %7.2f\n\n", total);
         System.out.println("Thank you for your purchase! We hope your day rocks.");
     }
