@@ -89,5 +89,7 @@ public class gravel {
         double total = Math.round((subtotal + deliveryCost + gst) * 1000) / 1000d;
         System.out.printf("Total: %7.2f\n\n", total);
         System.out.println("Thank you for your purchase! We hope your day rocks.");
+
+        input.close();
     }
 }
